@@ -1,6 +1,6 @@
-# Xcode
+# General
 .DS_Store
-*/build/*
+build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -9,9 +9,18 @@
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
 xcuserdata
 profile
 *.moved-aside
 DerivedData
 .idea/
-*.hmap
+*.swp
+*.swo
+*.rbo
+*.gem
+.rbenv-version
+.rbx/
+/concatenated.*
+Gemfile.lock

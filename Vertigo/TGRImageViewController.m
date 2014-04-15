@@ -34,6 +34,7 @@
 - (id)initWithImage:(UIImage *)image {
     if (self = [super init]) {
         _image = image;
+        _hideStatusBar = NO;
     }
     
     return self;
@@ -47,7 +48,7 @@
 }
 
 - (BOOL)prefersStatusBarHidden {
-    return YES;
+    return self.hideStatusBar;
 }
 
 #pragma mark - UIScrollViewDelegate methods

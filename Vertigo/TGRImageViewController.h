@@ -37,6 +37,9 @@
 // The image that will be shown.
 @property (strong, nonatomic, readonly) UIImage *image;
 
+// Prefers Status Bar Hidden
+@property (nonatomic, readwrite) BOOL hideStatusBar;
+
 // Initializes the receiver with the specified image.
 - (id)initWithImage:(UIImage *)image;
 
