@@ -43,6 +43,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self.scrollView setFrame:[UIScreen mainScreen].bounds];
+    [self.imageView setFrame:[UIScreen mainScreen].bounds];
+    
     [self.singleTapGestureRecognizer requireGestureRecognizerToFail:self.doubleTapGestureRecognizer];
     self.imageView.image = self.image;
 }
