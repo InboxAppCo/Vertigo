@@ -43,6 +43,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self.view setFrame:[UIScreen mainScreen].bounds];
     [self.scrollView setFrame:[UIScreen mainScreen].bounds];
     [self.imageView setFrame:[UIScreen mainScreen].bounds];
     
